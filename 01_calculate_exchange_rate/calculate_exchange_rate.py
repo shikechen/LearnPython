@@ -1,6 +1,8 @@
 """
-    介绍：根据给定的汇率，对人民币或美元进行转换
-    作者：shikechen
+    Author: shikechen
+    Function: Convert RMB or USD according to a given exchange rate
+    Version: 1.0
+    Date: 2018/12/24
 """
 rem_currency = 6.95
 
