@@ -34,7 +34,8 @@ def main():
             bmr = -1
 
         if bmr != -1:
-            print('BMR value: {} kcal'.format(bmr))
+            print('Your Gender:{}, Weight:{}kg, Height:{}cm, Age:{} years old'.format(gender, weight, height, age))
+            print('And your BMR value: {} kcal'.format(bmr))
         else:
             print('Not support the input value of gender')
 
