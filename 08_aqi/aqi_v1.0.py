@@ -6,7 +6,6 @@
 """
 
 
-
 def cal_linear(iaqi_lo, iaqi_hi, bp_lo, bp_hi, cp):
     iaqi = (iaqi_hi - iaqi_lo) * (cp - bp_lo) / (bp_hi - bp_lo) + iaqi_lo
     return iaqi
